@@ -61,7 +61,6 @@ class Trainer:
             mode="min",
             factor=0.5,
             patience=5,
-            verbose=False,
         )
 
         self.train_losses: list[float] = []
